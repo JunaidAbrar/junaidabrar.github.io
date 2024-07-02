@@ -11,9 +11,13 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Junaid Abrar Razeen </span>
             from <span className="purple"> Dhaka, Bangladesh.</span>
             <br />
-            I am currently a final year Computer Science (BSc) student at BRAC University.
-
+            I am a final year Computer Science (BSc) student at BRAC University. I am a passionate learner who is always willing to learn and work across technologies and domains. I love to explore new technologies and leverage those to solve real-life problems.
             <br />
+            <br />
+            Currently I'm working in a project named <span className="purple">UniCommute </span>, which is a platform for university students to find their commute partners and also other students who wants to share their ride.
+          </p>
+            <br />
+          <p style={{ textAlign: "justify" }}> 
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
