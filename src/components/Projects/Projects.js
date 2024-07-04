@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chatify from "../../Assets/Projects/vm.png";
 import bitsOfCode from "../../Assets/Projects/car.jpeg";
+import docker from "../../Assets/Projects/docker.png";
 
 function Projects() {
   return (
@@ -39,6 +40,16 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={docker}
+              isBlog={false}
+              title="Docker-Fundamentals-Showcase"
+              description="The contents of this repository reflect hands-on exercises covering Docker installation, image handling, container operations, Dockerfile creation, and practical application deployments."
+              ghLink="https://github.com/JunaidAbrar/Docker-Fundamentals-Showcase"
+              demoLink=""
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
