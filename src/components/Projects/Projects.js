@@ -6,6 +6,7 @@ import kvm from "../../Assets/Projects/vm.png";
 import bitsOfCode from "../../Assets/Projects/car.jpeg";
 import docker from "../../Assets/Projects/docker.png";
 import serverless from "../../Assets/Projects/serverless.png";
+import aws_tf from "../../Assets/Projects/aws_tf.png";
 
 function Projects() {
   return (
@@ -24,8 +25,19 @@ function Projects() {
               imgPath={kvm}
               isBlog={false}
               title="KVM-Based Virtualization"
-              description="This project demonstrates comprehensive utilization of Kernel-based Virtual Machine (KVM) technology for virtualization, focusing on setup, management, and advanced configurations of virtual machines (VMs)."
+              description="This project demonstrates the creation and management of KVM-based virtual machines using both GUI and CLI on Ubuntu 22.04. It covers the entire process from system preparation to adding shared folders and connecting external devices. Each step is meticulously documented with commands and configuration details, ensuring reproducibility and ease of understanding."
               ghLink="https://github.com/JunaidAbrar/VM-Skills-Portfolio"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aws_tf}
+              isBlog={false}
+              title="CI/CD with Terraform and Docker for Node.js on AWS"
+              description="A complete DevOps pipeline that automates the deployment of a Node.js application using Terraform, Docker, and GitHub Actions. The project provisions AWS EC2 infrastructure, builds and pushes Docker images to ECR, and deploys the application with continuous integration and continuous deployment."
+              ghLink="https://github.com/JunaidAbrar/Devops-Project"
               demoLink=""
             />
           </Col>
