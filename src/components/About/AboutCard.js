@@ -11,21 +11,21 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Junaid Abrar Razeen </span>
             from <span className="purple"> Dhaka, Bangladesh.</span>
             <br />
-            I am a final year Computer Science (BSc) student at BRAC University. I am a passionate learner who is always willing to learn and work across technologies and domains. I love to explore new technologies and leverage those to solve real-life problems.
+            My background lies in Computer Science, with a degree from BRAC University with expertise in Cloud Computing, IT infrastructure, and web development. Currently gaining hands-on experiences in the Mobile Financial Services(MFS) industry, working in the Product and Project Management Office at UCB Fintech Company Limited, Upay.
             <br />
             <br />
-            Currently I'm working on a project named <span className="purple">UniCommute </span>, which is a platform for university students to find their commute partners and also other students who want to share their ride.
+            My baby project is <span className="purple">UniCommute</span>, a cloud-based carpooling solution that addresses Dhaka's traffic challenges. I am passionate about AI and cloud innovations, and I am eager to apply my technical and analytical skills to dynamic roles in the DevOps and MFS sectors.
           </p>
             <br />
           <p style={{ textAlign: "justify" }}> 
-            Apart from coding, some other activities that I love to do!
+            Apart from building pipelines, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Driving Cars
+              <ImPointRight /> Shifting gears on the highway
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling to new places
+              <ImPointRight /> Exploring new places
             </li>
             <li className="about-activity">
               <ImPointRight /> Meeting new people
