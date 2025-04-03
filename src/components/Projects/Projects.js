@@ -7,6 +7,8 @@ import bitsOfCode from "../../Assets/Projects/car.jpeg";
 import docker from "../../Assets/Projects/docker.png";
 import serverless from "../../Assets/Projects/serverless.png";
 import aws_tf from "../../Assets/Projects/aws_tf.png";
+import unicommute from "../../Assets/Projects/unicommute.png";
+import ebellia from "../../Assets/Projects/ebellia.png";
 
 function Projects() {
   return (
@@ -14,12 +16,33 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          <strong className="purple">My Recent Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={unicommute}
+              isBlog={false}
+              title="UniCommute - A Dhaka based SaaS for University Students"
+              description="UniCommute is a carpooling app that connects university students in Dhaka. It allows students to share rides, split costs, and reduce traffic congestion. The app is built using MERN stack and Google Maps API."
+              demoLink="https://www.unicommute.com"
+            />
+          </Col>          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ebellia}
+              isBlog={false}
+              title="Ebellia - A Jewelry E-commerce Platform"
+              description="Ebellia is a jewelry e-commerce platform that allows users to browse and purchase jewelry online. The platform is built using WooCommerce and Wordpress while bKash API for payment processing."
+              demoLink="https://ebellia.com/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={kvm}
